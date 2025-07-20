@@ -2,3 +2,7 @@
 /.idea/
 /*.iml
 *.log
+
+# Allure output (результаты и отчёт)
+/allure-results/
+/allure-report/
