@@ -56,7 +56,7 @@ start allure-report/index.html
 
 ---
 
-## 🌍 Онлайн-отчёт Allure
+##  Онлайн-отчёт Allure
 
 [Открыть Allure Report](https://meek-hotteok-b51506.netlify.app)
 
