@@ -29,6 +29,3 @@ mvn clean test
 - Rest Assured 5.5.0
 - JUnit 5.10.1
 
----
-
-Проект можно использовать как часть портфолио для Junior QA Automation позиций.
