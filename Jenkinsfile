@@ -6,12 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Bar-skiy/rest-assured-api-tests.git'
-            }
-        }
-
         stage('Check Java Version') {
             steps {
                 sh 'java -version'
