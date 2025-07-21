@@ -59,6 +59,19 @@ start allure-report/index.html
 ##  Онлайн-отчёт Allure
 
 [Открыть Allure Report](https://meek-hotteok-b51506.netlify.app)
+> Сборка и запуск тестов автоматизированы через Jenkins pipeline (см. Jenkinsfile).
+
+---
+
+##  CI/CD через Jenkins
+Проект интегрирован с Jenkins pipeline:
+
+- Используется Jenkinsfile в корне проекта
+- Jenkins автоматически:
+- клонирует репозиторий
+- запускает автотесты (mvn clean test)
+- формирует Allure-отчёт
+- Полученный отчёт можно просматривать локально или загружать на хостинг
 
 ---
 
