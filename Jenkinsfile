@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven_3.9.6' // ← имя из Global Tool Configuration
+    }
+
     environment {
         MAVEN_OPTS = '-Dfile.encoding=UTF-8'
     }
