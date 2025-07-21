@@ -67,7 +67,8 @@ start allure-report/index.html
 Проект интегрирован с Jenkins pipeline:
 
 - Используется Jenkinsfile в корне проекта
-- Jenkins автоматически:
+  
+Jenkins автоматически:
 - клонирует репозиторий
 - запускает автотесты (mvn clean test)
 - формирует Allure-отчёт
